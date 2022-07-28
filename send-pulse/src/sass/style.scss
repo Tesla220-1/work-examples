@@ -1,0 +1,41 @@
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
+    line-height: 1;
+}
+
+
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+
+input, button {
+    &:focus {
+        outline: none;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+
+@import 'variables';
+
+@import'blocks/promo';
+@import'blocks/header';
+@import'blocks/button';
+@import'blocks/advantages';
+@import'blocks/consultation';
+@import'blocks/carousel';
+@import'blocks/catalog';
+@import'blocks/catalog-item';
+@import'blocks/reviews';
+@import'blocks/client';
+@import'blocks/footer';
+@import'blocks/form';
+@import'blocks/modal';
+@import'blocks/pageup';
+@import'blocks/footer-map';
+@import 'media';

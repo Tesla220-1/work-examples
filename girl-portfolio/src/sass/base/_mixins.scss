@@ -1,0 +1,28 @@
+@mixin before-circle {
+    &:before{ 
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 36px;
+        height: 36px;
+        background: $main-color;
+        border-radius: 100%;
+        top: -25%;
+        left: 0;
+    }   
+}
+
+@mixin center-circle {
+    &:before{ 
+        content: '';
+        position: absolute;
+        z-index: -1;
+        width: 36px;
+        height: 36px;
+        background: $main-color;
+        border-radius: 100%;
+        top: -25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }   
+}

@@ -1,0 +1,22 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #000000;
+    line-height: 60px;
+    margin: 0;
+    margin-top: 6px;
+    &_h1 {
+        width: 535px;
+        /* height: 129px; */
+        font-size: 48px;
+        margin-top: 9px;
+    }
+    &_little {
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 0;
+    }
+    &_center {
+        text-align: center;
+    }
+}
